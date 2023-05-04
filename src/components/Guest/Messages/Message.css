@@ -1,0 +1,22 @@
+.guest-message {
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, 0.755);
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.guest-message:hover {
+  background-color: rgb(0, 143, 143);
+}
+
+.guest-message-title {
+}
+.guest-message-content {
+  color: rgb(206, 206, 206);
+  font-size: 12px;
+}

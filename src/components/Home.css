@@ -1,0 +1,56 @@
+.home-image-container {
+  position: fixed;
+  background-image: url('/public/assets/img/pikrepo.jpg');
+  filter: brightness(0.1) blur(1px);
+  width: 100%;
+  height: 100%;
+}
+.home-container {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+}
+
+.home-container-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.home-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container form {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.form-text {
+  display: block;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-button-container {
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+}
+.form-button {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.form-button:hover {
+  background-color: rgb(27, 165, 186);
+}

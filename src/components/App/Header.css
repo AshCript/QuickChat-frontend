@@ -1,0 +1,71 @@
+.header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  height: 40px;
+  /* margin-bottom: 8px; */
+}
+
+.header-logo {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.064);
+  color: rgba(255, 255, 255, 0.459);
+}
+
+.header-exit-button {
+  display: inline-flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.header-exit-button-icon {
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.145);
+  padding: 5px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.header-exit-button-icon:hover {
+  background-color: rgba(255, 0, 0, 0.557);
+}
+
+.header-sign-buttons {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  height: inherit;
+  background-color: rgb(24, 182, 185);
+}
+
+.header-sign-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.header-signin-button,
+.header-signup-button {
+  /* display: inline-block; */
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+
+.header-signin-button:hover,
+.header-signup-button:hover {
+  background-color: rgb(24, 182, 185);
+}

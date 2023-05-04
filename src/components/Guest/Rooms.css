@@ -1,0 +1,8 @@
+.rooms {
+  overflow: auto;
+  width: 56.5%;
+  height: 100%;
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+}

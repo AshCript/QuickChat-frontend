@@ -1,0 +1,15 @@
+.guest-user {
+  position: relative;
+  display: block;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgba(10, 10, 10, 0.755);
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.guest-user:hover {
+  background-color: rgb(0, 143, 143);
+}
